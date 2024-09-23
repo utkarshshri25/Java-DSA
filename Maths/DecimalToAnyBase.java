@@ -16,7 +16,7 @@ public class DecimalToAnyBase
         {
             // storing remainder in binary array
             binaryNum[i] = n % 2;   //for any base- n%base
-            n /= 2;              //for any base - n/=2
+            n /= 2;              //for any base- n/=base
             i++;
         }
  

@@ -12,7 +12,7 @@ public class Amstrong {
         {
             x=x%10;
             sum = sum + (int)Math.pow(x,3); 
-            x=x%10;
+            x=x/10;
 
         }
         

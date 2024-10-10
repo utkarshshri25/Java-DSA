@@ -10,8 +10,8 @@ public static void binaryToDecimal(int n)
     while (n>0)
     {
         unitDigit= n%10;
-        n/=10;                        //for base n: n/=base
-        decimalNum= (int) (decimalNum + unitDigit * Math.pow (2,power));  //for base n: Math.pow(base,power)
+        n/=10;                        //for other base: n/=base
+        decimalNum= (int) (decimalNum + unitDigit * Math.pow (2,power));  //for other base: Math.pow(base,power)
         power++;
     }
 

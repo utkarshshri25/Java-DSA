@@ -13,4 +13,17 @@ n=36
 36*1
 */
 
+import java.util.ArrayList;
 
+public class FindFactors {
+
+    public static void main(String[] args) {
+        
+        int n=36;
+        ArrayList <Integer> factors= ArrayList<Integer>();
+        int sqrt=Math.sqrt(n);
+        
+        
+
+    }
+}

@@ -1,3 +1,0 @@
-Arraylist
-
-import java.util.Arraylist

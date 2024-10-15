@@ -1,0 +1,20 @@
+1) import java.util.Arraylist
+
+2) ArrayList is a Java class implemented using the List interface. 
+
+3)  Declaring the ArrayList
+        ArrayList<Integer> arrl = new ArrayList<Integer>();
+
+4) Initial size of ArrayList -> 10      
+        If an element over the size limit comes then size of new arraylist created -> (oldSize + oldSize/2) +1
+        After creation of new arrayList, old arrayList is dumped.
+
+Operations in ArrayList
+
+arrl.add(5) //Add element 5 at end of arrayList 
+arrl.add(3, 45) //Add element 45 at index 3. Time- O(n) because all other will right shift
+arrl.addAll(newlist) // It will add all elements of newlist at the end of arrl
+System.out.println(get(4))  // To get element at index 4
+list.remove(7)  //To remove element at index 7. Time- O(n) because all other elements will left shift
+list.set(2,100) //Alter element at index 2 to value 100
+System.out.println(arrl) //All elements of arrlist will be printed i.e. inside Sopln, toString method is invoked

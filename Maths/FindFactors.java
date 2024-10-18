@@ -30,7 +30,7 @@ public class FindFactors {
                 factors.add(i);
                 if (n/i != i)
                 {
-                    factors.add(n/i);
+                    factors.add(n/i);  //if i is factor of n, then n/i will also be factor of n
                 }
             }
         }

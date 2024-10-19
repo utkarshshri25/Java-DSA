@@ -32,7 +32,7 @@ public class AllPrimeFactorsOfNumber1 {
     public static boolean isPrime(int p)
     {
         int count=0;
-        for(int i=2; i*i <= p; i++)
+        for(int i=2; i<= (int)Math.sqrt(p); i++)
         { 
             if(p%i==0)
             {
@@ -47,4 +47,4 @@ public class AllPrimeFactorsOfNumber1 {
 
 }
 
-//Time- srqt(n) * [2*sqrt(n)]. Hence Time complex=n
+//Time- srqt(n) * [2*sqrt(n)]. Hence Time complexity=n

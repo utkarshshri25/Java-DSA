@@ -37,6 +37,7 @@ public class AllPrimeFactorsOfNumber1 {
             if(p%i==0)
             {
                 count++;
+                break;
             }
         }
 

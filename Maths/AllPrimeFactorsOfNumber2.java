@@ -26,6 +26,8 @@ public class AllPrimeFactorsOfNumber2 {
 
     }
 
+    //Time compelxity- n*log(n)
+
     public static ArrayList<Integer> primeFactors2(int n)
 {
     ArrayList <Integer> list2= new ArrayList<>();
@@ -37,14 +39,16 @@ public class AllPrimeFactorsOfNumber2 {
             }
         while(n%i==0)
             n/=i;
-        if (n!=1)
-           list2.add(n);      
     }
+
+    if (n!=1)              //if n is prime, then it will not be divisible by any other number hence n won't be =1.
+        list2.add(n);      //Hence we stop division when we reach a prime number as divident and add that prime divident to list
+
     return(list2);
 
 }
 }
 
-//Time- n*k, where k is minimal so T(n)=N
+//Time- sqrt(n)*log(n)
 
 

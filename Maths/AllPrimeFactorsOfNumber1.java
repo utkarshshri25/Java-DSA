@@ -12,7 +12,7 @@ public class AllPrimeFactorsOfNumber1 {
 
        public static ArrayList<Integer> primeFactors(int n)
     {
-        ArrayList <Integer> list2= new ArrayList<>();       //This function os taking sqrt(n)*2*sqrt(n) time
+        ArrayList <Integer> list2= new ArrayList<>();       //This function is taking sqrt(n)*2*sqrt(n) time
         for (int i=2; i*i <= n; i++) //Time- sqrt(n)
         {
             if(n%i==0)

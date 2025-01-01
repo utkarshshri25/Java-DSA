@@ -42,15 +42,15 @@ class Solution {
     public static double myPow2(double x, long n) {
 
         if(n==0)
-        {return 1;}
+            return 1;    
 
         if(n < 0)
-        {return myPow2(1/x, -n);}
+            return myPow2(1/x, -n);
 
         if(n%2==0)
-        {return myPow2(x*x,n/2);}
+            return myPow2(x*x,n/2);
         else
-        return x*myPow2(x, (n-1)/2);
+            return x*myPow2(x, (n-1)/2);
 
     }
 

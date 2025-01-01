@@ -19,7 +19,7 @@ public class AllPrimeFactorsOfNumber1 {
             {
                 if(isPrime(i)) //Time-sqrt(n)
                   list2.add(i);
-                if(n/i!=i)
+                if(n/i!=i)                           
                 {
                     if(isPrime(n/i))
                       list2.add(n/i);

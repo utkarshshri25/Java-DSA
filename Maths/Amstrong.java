@@ -19,8 +19,8 @@ public class Amstrong {
 
         while (x>0)
         {
-            x=x%10;
-            sum = sum + (int)Math.pow(x,count); 
+            int rem = x%10;
+            sum = sum + (int)Math.pow(rem,count); 
             x=x/10;
 
         }
